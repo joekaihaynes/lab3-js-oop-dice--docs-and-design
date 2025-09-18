@@ -16,8 +16,8 @@ We will embed documentation directly in code using:
 - ADRs for architectural decisions
 ## Implementation
 ### JSDoc with Mermaid
-` ``javascript
-/**
+```javascript
+/*
 * @fileoverview Die class for simulating dice rolls
 * @mermaid
 * classDiagram
@@ -28,8 +28,8 @@ We will embed documentation directly in code using:
 * +roll(): number
 * +getValue(): number
 * }
-  */
-  ` ``
+*/
+ ```
 ### File Structure
 ```
 src/
