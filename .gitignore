@@ -93,7 +93,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Sveltekit cache directory
 .svelte-kit/
@@ -124,6 +123,25 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Documentation build output (for future)
+docs/api/
+docs/generated/
+
+# Local environment files
+.env.local
 
 # yarn v3
 .pnp.*
