@@ -23,7 +23,7 @@ User interfaces that interact with the dice system:
 - **TextRenderer**: Simple text output
 - **JSONRenderer**: JSON format output
 ## Dependency Flow
-` ``mermaid
+```mermaid
 graph TD
 subgraph "External"
 User[User Input]
@@ -58,7 +58,7 @@ Renderer --> AsciiRender
 DiceRoller --> Statistics
 CLI --> Display
 TUI --> Display
-` ``
+```
 ## Key Design Principles
 ### 1. Dependency Injection
 All dependencies are injected through constructors, making components:
