@@ -31,7 +31,7 @@ We will embed documentation directly in code using:
   */
   ` ``
 ### File Structure
-` ``
+```
 src/
 ├── domain/
 │ ├── Die.js # Single die implementation
@@ -43,7 +43,7 @@ src/
 └── presentation/
 ├── renderers/ # Different display strategies
 └── cli/ # Command-line interface
-` ``
+```
 ## Consequences
 ### Positive
 - Documentation stays close to code
